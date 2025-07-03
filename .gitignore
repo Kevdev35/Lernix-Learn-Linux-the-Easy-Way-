@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Build folders
+dist/
+build/
+
+# Env variables
+.env
+
+# Logs
+*.log
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Archivos pesados que no quieres subir
+*.rar
+*.zip
+*.exe
