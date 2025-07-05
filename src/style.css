@@ -8,20 +8,47 @@ body {
   background-color: #000;
   color: #f1f1f1;
   font-family: "Courier New", Courier, monospace;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   display: flex;
-  justify-content: center; /* centrado horizontal */
-  align-items: center;     /* centrado vertical */
+  flex-direction: column; /* Para que las opciones queden arriba */
+  align-items: start;
   padding: 20px;
+}
+
+/* Barra de opciones */
+.options {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.option {
+  background-color: #111;
+  color: #33ff33;
+  border: 1px solid #33ff33;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.option:hover {
+  background-color: #222;
+  transform: scale(1.05);
+}
+
+.option:active {
+  background-color: #000;
+  transform: scale(0.98);
 }
 
 #terminal {
   background-color: #000;
   color: #f1f1f1;
   width: 100%;
-  max-width: 800px;
-  height: 90%;
+  height: 85%;
   padding: 20px;
   border-radius: 8px;
   overflow-y: auto;
