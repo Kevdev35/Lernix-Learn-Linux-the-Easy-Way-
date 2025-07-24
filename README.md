@@ -25,9 +25,13 @@ Ideal para estudiantes, autodidactas y cualquier persona que quiera dominar la t
 ## 📥 Descargar Lernix
 
 Descarga la versión para Windows:  
-➡️ [Descargar Lernix-win32-x64.rar](https://github.com/Kevdev35/Lernix-Learn-Linux-the-Easy-Way-/releases/download/v1.0.0/Lernix-win32-x64.rar)
+➡️ [Descargar Lernix-for-win-v2.0.0.zip](https://github.com/Kevdev35/Lernix-Learn-Linux-the-Easy-Way-/releases/download/v2.0.0/Lernix-for-win-v2.0.0.zip)
 
-> ⚠️ Requiere WinRAR o cualquier software que abra archivos `.rar`.
+> ⚠️ Requiere WinRAR o cualquier software que abra archivos `.rar`,`.zip`.
+
+Descarga la versión para Linux:  
+➡️ [Descargar Lernix-for-linux-v2.0.0.zip](https://github.com/Kevdev35/Lernix-Learn-Linux-the-Easy-Way-/releases/download/v2.0.0/Lernix-for-linux-v2.0.0.zip)
+
 
 ---
 
