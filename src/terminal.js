@@ -49,7 +49,8 @@ const MESSAGES = {
           whoami        - Muestra usuario actual
           date          - Muestra fecha y hora actual
           man [comando] - Muestra ayuda detallada
-          exit          - Salir (simulado)
+          exit          - Salir de la terminal (simulado)
+          sudo          - Da permisos de superusuario
         `,
     systemReset: "Sistema reiniciado.\n",
     folderNotFound: (name) => `No se encontró la carpeta '${name}'\n`,
@@ -121,6 +122,7 @@ const MESSAGES = {
           date          - Show current date and time
           man [command] - Show detailed help
           exit          - Exit (simulated)
+          sudo
         `,
     systemReset: "System reset.\n",
     folderNotFound: (name) => `Folder '${name}' not found\n`,
