@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . Lernix --platform=win32 --arch=x64 --icon=lernix.ico --out=dist --overwrite",
+    "dev": "npm start",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux",
+    "build:all": "electron-builder --win --linux",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +17,28 @@
   "type": "commonjs",
   "devDependencies": {
     "electron": "^37.1.0",
+    "electron-builder": "^26.0.12",
     "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.lernix.app",
+    "productName": "Lernix",
+    "files": [
+      "**/*",
+      "!dist",
+      "!node_modules/*/{test,__tests__,tests}/**"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "category": "Education"
+    },
+    "win": {
+      "target": ["nsis"],
+      "icon": "lernix.ico"
+    }
   }
+
 }
