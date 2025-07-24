@@ -8,7 +8,7 @@ const sections = {
 
         Presiona 'help' para ver todos los comandos.
         `,
-    docs: `
+    commands: `
         Documentación 📚
         ------------------------
         📋 Comandos Disponibles en Linux
@@ -77,20 +77,19 @@ const sections = {
         Ayuda rápida ⚙️
         ------------------------
         - home     → Muestra la página principal.
-        - docs     → Muestra documentación básica.
+        - commands → Muestra los comandos básicos de la terminal.
         - help     → Muestra esta ayuda.
         - version  → Muestra la versión de Lernix.
-        - volver   → Vuelve a la terminal.
 
         Dentro de la terminal usa 'help' para más info.
         `,
-        version: `
+    version: `
         Lernix Terminal Emulator
         ------------------------
-        Version: 1.2.0
+        Version: 2.0.0
         Developer: Divendey
         `,
-    about_Linux:`
+    about_linux:`
         Linux es un sistema operativo libre y de código abierto, cuyo núcleo fue creado por Linus Torvalds en 1991.
 
         🧑‍💻 Historia breve:
@@ -101,6 +100,17 @@ const sections = {
 
         🚀 Distribuciones populares:
         Ubuntu, Debian, Fedora, Arch Linux, CentOS, Linux Mint.
+
+        🎯 Recomendaciones según tu nivel:
+        - 👶 Principiantes:
+          - Linux Mint: Ideal para usuarios nuevos, muy intuitiva y parecida a Windows.
+          - Ubuntu: Amplio soporte, comunidad activa y fácil de usar.
+          - Zorin OS: Muy amigable, pensada para quienes migran desde Windows.
+        - 🧙‍♂️ Avanzados:
+          - Arch Linux: Flexible, ligera, pero requiere conocimientos técnicos.
+          - Debian: Estable y robusta, ideal para servidores y usuarios experimentados.
+          - Void Linux / Gentoo: Máximo control sobre tu sistema, recomendadas para usuarios expertos.
+
 
         🌐 Usos más comunes:
         - Servidores web y bases de datos.
@@ -124,8 +134,8 @@ function changeSection(section) {
   if (section === "volver") {
     // Reinicia la terminal
     output.innerText = `Bienvenido a Lernix - Tu primera terminal educativa Linux 🤓
-Escribe 'help' para ver los comandos disponibles.
-`;
+    Escribe 'help' para ver los comandos disponibles.
+    `;
   } else {
     output.innerText = sections[section] || "Sección aun en desarrollo.";
   }
