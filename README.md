@@ -32,6 +32,9 @@ Descarga la versión para Windows:
 Descarga la versión para Linux:  
 ➡️ [Descargar Lernix-for-linux-v2.0.0.zip](https://github.com/Kevdev35/Lernix-Learn-Linux-the-Easy-Way-/releases/download/v2.0.0/Lernix-for-linux-v2.0.0.zip)
 
+Descarga la versión para Linux (AppImage):  
+➡️ [Descargar Lernix-for-linux-v2.0.0.zip](https://github.com/Kevdev35/Lernix-Learn-Linux-the-Easy-Way-/releases/download/v2.0.0/Lernix-2.0.0.AppImage)
+
 
 ---
 
