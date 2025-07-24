@@ -12,7 +12,11 @@ function createWindow() {
 			nodeIntegration: true,
 			contextInsolation: false
 		},
+		autoHideMenuBar: true,
+		
 	});
+	win.setMenuBarVisibility(false);
+
 	win.loadFile("./src/index.html")
 }
 
